@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     "corsheaders",
     "rest_framework",
     "rest_framework_simplejwt",
+    "sites",
+    "tags",
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True;
