@@ -1,15 +1,44 @@
 .main {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-image: url('./background_image.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    width: 100%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("./background_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.top{
+  margin: 30vh;
+}
+
+.bottom{
+  margin-bottom: 15vh;
+}
+
+@keyframes bounce{
+  0%{
+
   }
-  
+
+  25%{
+
+  }
+
+  50%{
+
+  }
+
+  75%{
+
+  }
+
+  100%{
+    
+  }
+}
